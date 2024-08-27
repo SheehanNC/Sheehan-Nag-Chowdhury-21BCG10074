@@ -41,7 +41,7 @@ ws.onmessage = (message) => {
 
     case 'gameOver': // <-- Handle game over
           alert(`Game over! Player ${data.winner} wins!`);
-           // Close the WebSocket connection
+          ws.close() // Close the WebSocket connection
           break;
 
       default:
