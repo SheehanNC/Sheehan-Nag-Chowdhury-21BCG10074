@@ -50,7 +50,7 @@ This project is a turn-based, chess-inspired game implemented using Node.js and 
 4. **Start the server:**
 
     ```bash
-    node swebsocketServer.js
+    node websocketServer.js
 
 The server will start and listen on ws://localhost:8080.
 
