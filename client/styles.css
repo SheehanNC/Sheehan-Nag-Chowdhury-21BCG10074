@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid blue; */
+}
+
+
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    /* border: 2px solid green; */
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 5px;
+    margin-bottom: 20px;
+    
+}
+
+#board div {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #4485ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#board div:hover{
+    background-color: yellow;
+}
+
+#board div:active{
+    background-color: rgb(255, 201, 24);
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#move-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4485ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#move-buttons button:hover {
+    background-color: #356acb;
+    transform: translateY(-2px);
+}
+
+#move-buttons button:active {
+    background-color: #274a8c;
+    transform: translateY(0);
+}
+
+
+#move-buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#turn-indicator {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+#move-history {
+    margin: 20px;
+    text-align: center;
+    /* border: 2px solid gray; */
+    border-radius: 9px;
+    padding: 5px;
+    height: 275px;
+}
+
+#move-history h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#move-history ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#move-history li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.player-a {
+    color: red /* Adjust text color for better contrast */
+}
+
+.player-b {
+    color: blue /* Adjust text color for better contrast */
+}
+
+/* styles.css */
+
+#player-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#player-info #player-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}

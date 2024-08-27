@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn-Based Chess-like Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1>Turn-Based Chess-like Game</h1>
+        <h2 id="player_id"></h2>
+        <div id="game">
+            <div id="board"></div>
+            <div id="controls">
+                <p id="turn-indicator">Waiting for opponent...</p>
+                <div id="move-buttons"></div>
+            </div>
+        </div>
+        <div id="move-history">
+            <h2>Moves History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
