@@ -91,7 +91,7 @@ For questions or support, please contact [enceesheehan@gmail.com].
 
 ## Demo Video
 - move to 0:09 to see how controls work
-- move ot 0:29 to see how "capture moves" work
+- move to 0:29 to see how "capture moves" work
 - move to 1:42 to understand "Game Over" functionality [Player B wins]
 
 Link to Video : https://drive.google.com/file/d/1dCEFho7O9FFj9gFcnYryhcHmnSqsPxUG/view?usp=sharing
