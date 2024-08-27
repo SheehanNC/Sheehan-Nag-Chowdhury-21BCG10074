@@ -34,8 +34,7 @@ This project is a turn-based, chess-inspired game implemented using Node.js and 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/turn-based-chess-like-game.git
-   cd turn-based-chess-like-game
+   cd chess-like-game
 
 2. **Install the dependencies:**
 
