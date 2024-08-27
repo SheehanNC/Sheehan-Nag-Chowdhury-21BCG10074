@@ -34,7 +34,7 @@ This project is a turn-based, chess-inspired game implemented using Node.js and 
 1. **Clone the repository:**
 
    ```bash
-  git clone https://github.com/SheehanNC/Sheehan-Nag-Chowdhury-21BCG10074.git
+   git clone https://github.com/SheehanNC/Sheehan-Nag-Chowdhury-21BCG10074.git
 
 2. **Navigate into the Project Directory:**
 
