@@ -91,7 +91,6 @@ For questions or support, please contact [enceesheehan@gmail.com].
 
 ## ScreenShots
 ![Screenshot 2024-09-04 190613](https://github.com/user-attachments/assets/fd530ed1-c8d1-4dd8-854a-a21f3e79593a)
-![Screenshot 2024-09-04 191926](https://github.com/user-attachments/assets/b4fefe42-748f-4a5d-b48d-11521b4dec48)
 ![Screenshot 2024-09-04 192251](https://github.com/user-attachments/assets/9db4431c-3c36-4d41-9707-6f99fad42d96)
 
 
