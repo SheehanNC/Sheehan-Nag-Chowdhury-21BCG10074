@@ -89,7 +89,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### Contact
 For questions or support, please contact [enceesheehan@gmail.com].
 
-##ScreenShot
+## ScreenShots
 ![Screenshot 2024-09-04 190613](https://github.com/user-attachments/assets/fd530ed1-c8d1-4dd8-854a-a21f3e79593a)
 
 
